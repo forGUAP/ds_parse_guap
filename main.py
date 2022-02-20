@@ -8,8 +8,8 @@ logging.basicConfig(level=logging.INFO)
 
 client = discord.Client()
 guild = discord.Guild
-log_channel_id = 000
-staff_role_id = 000
+log_channel_id = 0000
+staff_role_id = 0000
 bot_token = "your_tokn_here"
 @client.event
 async def on_ready():
